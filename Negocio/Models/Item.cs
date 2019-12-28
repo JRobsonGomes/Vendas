@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Negocio.Models
 {
@@ -6,8 +7,13 @@ namespace Negocio.Models
     class Item
     {
         public int Id { get; set; }
+
+        [Required]
         public int Quantidade { get; set; }
+
+        [Range(1, 20)]
         public decimal ValorTotalDoItem { get; set; }
+
         public Produto Produto { get; set; }// Um item tem um produto
 
         /*Para que um item saiba a qual pedido ele pertence é necessário essa propriedade

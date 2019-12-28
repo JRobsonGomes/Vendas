@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Negocio.Models
 {
@@ -6,7 +7,13 @@ namespace Negocio.Models
     class Fornecedor
     {
         public int Id { get; set; }
+
+        [StringLength(20)]
+        [Required]
         public string Cnpj { get; set; }
+
+        [StringLength(200, MinimumLength = 10)]
+        [Required]
         public string RazaoSocial { get; set; }
     }
 }
