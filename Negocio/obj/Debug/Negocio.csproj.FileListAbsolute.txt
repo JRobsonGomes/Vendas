@@ -1,5 +1,3 @@
-C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\App_Data\DB_Negocio.mdf
-C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\App_Data\DB_Negocio_log.ldf
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\Negocio.exe.config
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\Negocio.exe
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\Negocio.pdb
@@ -7,11 +5,34 @@ C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\EntityFramework.dll
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\EntityFramework.xml
 C:\Users\Robson\source\repos\Vendas\Negocio\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.FormCadastro.resources
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.Properties.Resources.resources
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.csproj.GenerateResource.cache
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.exe
 C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.pdb
-C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.Migrations.MigraçãoInicial.resources
+C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.Migrations.MigracaoInicial.resources
+C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.FormFornecedor.resources
+C:\Users\Robson\source\repos\Vendas\Negocio\obj\Debug\Negocio.FormPedido.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\Negocio.exe.config
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\Negocio.exe
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\Negocio.pdb
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\EntityFramework.dll
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\EntityFramework.xml
+C:\Drive\C# Windows Form\Vendas\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.FormCadastro.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.FormFornecedor.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.FormPedido.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.Migrations.MigracaoInicial.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.Properties.Resources.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.csproj.GenerateResource.cache
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.exe
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.pdb
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.Migrations.Incluindo_Nova_Propriedade_no_Item.resources
+C:\Drive\C# Windows Form\Vendas\Negocio\obj\Debug\Negocio.Views.FormPrincipal.resources

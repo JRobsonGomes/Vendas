@@ -1,0 +1,1 @@
+﻿DBCC CHECKIDENT ('DB_Negocio.dbo.Produto', RESEED, 2)

@@ -15,6 +15,7 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,7 +28,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -49,6 +49,10 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -72,9 +76,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\AppDbContext.cs" />
-    <Compile Include="Migrations\201912282011234_MigraçãoInicial.cs" />
-    <Compile Include="Migrations\201912282011234_MigraçãoInicial.designer.cs">
-      <DependentUpon>201912282011234_MigraçãoInicial.cs</DependentUpon>
+    <Compile Include="Views\FormCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormCadastro.Designer.cs">
+      <DependentUpon>FormCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormFornecedor.Designer.cs">
+      <DependentUpon>FormFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormPedido.Designer.cs">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912302126098_MigracaoInicial.cs" />
+    <Compile Include="Migrations\201912302126098_MigracaoInicial.designer.cs">
+      <DependentUpon>201912302126098_MigracaoInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001261650461_Incluindo_Nova_Propriedade_no_Item.cs" />
+    <Compile Include="Migrations\202001261650461_Incluindo_Nova_Propriedade_no_Item.designer.cs">
+      <DependentUpon>202001261650461_Incluindo_Nova_Propriedade_no_Item.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Fornecedor.cs" />
@@ -83,8 +109,26 @@
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Migrations\201912282011234_MigraçãoInicial.resx">
-      <DependentUpon>201912282011234_MigraçãoInicial.cs</DependentUpon>
+    <Compile Include="Views\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\FormCadastro.resx">
+      <DependentUpon>FormCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormFornecedor.resx">
+      <DependentUpon>FormFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormPedido.resx">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912302126098_MigracaoInicial.resx">
+      <DependentUpon>201912302126098_MigracaoInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001261650461_Incluindo_Nova_Propriedade_no_Item.resx">
+      <DependentUpon>202001261650461_Incluindo_Nova_Propriedade_no_Item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +139,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,16 +154,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Data\DB_Negocio.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="App_Data\DB_Negocio_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>DB_Negocio.mdf</DependentUpon>
-    </Content>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
